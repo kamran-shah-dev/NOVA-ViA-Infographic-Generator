@@ -129,20 +129,22 @@ const App: React.FC = () => {
       {/* Navbar */}
       <nav className="h-20 border-b border-[#2E3B4A]/10 bg-white flex items-center justify-between px-6 md:px-10 sticky top-0 z-50">
         <div className="flex items-center gap-3 md:gap-4">
-          <div 
-            className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center shadow-sm"
-            style={{ backgroundColor: NOVA_VIA_BRAND.primary }}
-          >
-            <Sparkles className="text-white" size={24} />
+          <div className="w-20 h-20 md:w-22 md:h-22 flex items-center justify-center">
+            <img
+              src="/novavia-logo.png"
+              alt="NOVA ViA Logo"
+              className="w-12 md:w-14 object-contain"
+            />
           </div>
+
           <div>
-            <h1 className="text-xl md:text-2xl font-black tracking-tighter font-heading" style={{ color: NOVA_VIA_BRAND.primary }}>Nova ViA</h1>
+            <h1 className="text-xl md:text-2xl font-black tracking-tighter font-heading" style={{ color: NOVA_VIA_BRAND.primary }}>NOVA ViA</h1>
             <p className="hidden md:block text-[9px] uppercase tracking-[0.4em] text-[#818181] font-black -mt-1 font-body">Design Intelligence</p>
           </div>
         </div>
         <div className="flex items-center gap-4 md:gap-6">
           <div className="text-[10px] md:text-xs font-bold text-[#818181] flex items-center gap-2 uppercase tracking-widest font-heading">
-            <Info size={14} /> <span className="hidden sm:inline">Rule-Based Engine V2.0</span>
+            {/* <Info size={14} /> <span className="hidden sm:inline">Rule-Based Engine V2.0</span> */}
           </div>
         </div>
       </nav>
@@ -371,13 +373,17 @@ const App: React.FC = () => {
 
       <footer className="py-10 border-t border-[#2E3B4A]/5 bg-white flex flex-col items-center justify-center text-[#818181] shrink-0 px-4 text-center gap-4">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-[#034F80] flex items-center justify-center">
-            <Sparkles className="text-white" size={12} />
+          <div className="w-20 h-20 md:w-22 md:h-22 flex items-center justify-center">
+            <img
+              src="/novavia-logo.png"
+              alt="NOVA ViA Logo"
+              className="w-12 md:w-14 object-contain"
+            />
           </div>
-          <span className="text-[10px] font-black uppercase tracking-[0.5em] font-heading text-[#1A2633]">Nova ViA</span>
+          <span className="text-[10px] font-black uppercase tracking-[0.5em] font-heading text-[#1A2633]">NOVA ViA</span>
         </div>
-        <p className="text-[9px] uppercase tracking-[0.3em] font-bold opacity-50 font-body">
-          &copy; 2025 Nova ViA Digital &bull; Human-Centred Presence &bull; Clarity &bull; Integrity
+        <p className="text-[9px] uppercase tracking-[0.3em] font-bold opacity-100 font-body">
+          &copy; 2025 NOVA ViA - All Rights Reserved.
         </p>
       </footer>
     </div>
