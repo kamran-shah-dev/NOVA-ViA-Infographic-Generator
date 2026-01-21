@@ -291,7 +291,7 @@ const App: React.FC = () => {
         {/* Live Canvas Area */}
         <div className="flex-1 flex flex-col min-w-0">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4 sm:gap-0">
-            <h3 className="font-bold text-[#1A2633] flex items-center gap-3 uppercase tracking-[0.4em] text-[10px] font-heading">
+            <h3 className="font-bold text-[#1A2633] flex items-center gap-3 uppercase tracking-[0.4em] text-[15px] font-heading">
               <div className="w-1.5 h-1.5 rounded-full bg-[#8F9185] animate-pulse" />
               Manifestation Workspace
             </h3>
